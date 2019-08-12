@@ -4,6 +4,10 @@
 ### Prerequisites
 1. EC2 instance with Java v1.8.x 
 
+yum install java-1.8*
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.161-0.b14.e17_4.x86_64
+edit /etc/profile file to set JAVA_HOME permanently for all users
+
 ### Install Apache Tomcat
 Download tomcat packages from  https://tomcat.apache.org/download-80.cgi onto /opt on EC2 instance
 ```sh 
