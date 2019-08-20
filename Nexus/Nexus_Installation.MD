@@ -6,6 +6,9 @@ Nexus is one a artifact repository which helps to store your build outcomes.
 
 1. EC2 instance with java 
 
+export JAVA_HOME=/usr/lib/jvm/java-7-openjdk 
+export PATH=$PATH:/usr/lib/jvm/java-7-openjdk/bin
+
 ### Implementation steps 
 
 Download and setup nexus stable version
